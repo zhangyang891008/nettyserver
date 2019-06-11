@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d85ce20-2dbc-4380-87e3-a7337e2a714d" name="Default Changelist" comment="mynettyserver">
-      <change afterPath="$PROJECT_DIR$/src/main/java/s04/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s04/ClientFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/s04/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/ClientFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/TankMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/TankMsgDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s05/TankMsgEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,29 +30,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/util/internal/chmv8/ForkJoinPool.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="543" selection-start-line="543" selection-end-line="543" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/s03/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/s04/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
@@ -61,15 +41,82 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/s04/ClientFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="-637">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="e#1047#1200#0" expanded="true" />
                 <element signature="e#1199#1200#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMsgEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMsgDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <folding>
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s05/ClientFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -94,42 +141,6 @@
                 <element signature="e#1325#1326#0" expanded="true" />
                 <element signature="e#1366#1367#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/s03/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/ChannelHandlerInvokerUtil.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/DefaultChannelHandlerInvoker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/group/ChannelGroup.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -165,6 +176,12 @@
         <option value="$PROJECT_DIR$/src/main/java/s04/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/s04/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/s04/ClientFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/ClientFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/TankMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/TankMsgEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/TankMsgDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s05/Server.java" />
       </list>
     </option>
   </component>
@@ -221,24 +238,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="s03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="s03" type="462c0819:PsiDirectoryNode" />
-              <item name="Server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="nettyserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="s04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="s05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettyserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="s05" type="462c0819:PsiDirectoryNode" />
+              <item name="Server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="nettyserver" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +277,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/s04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/s05" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -273,6 +290,7 @@
       <recent name="s03" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\GitHub\nettyserver\src\main\java\s05" />
       <recent name="C:\Users\Administrator\Documents\GitHub\nettyserver\src\main\java\s04" />
       <recent name="C:\Users\Administrator\Documents\GitHub\nettyserver\src\main\java" />
       <recent name="C:\Users\Administrator\Documents\GitHub\nettyserver\src\main\java\s03" />
@@ -291,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientFrame (2)">
+  <component name="RunManager" selected="Application.ClientFrame">
     <configuration name="ClientFrame (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="s03.ClientFrame" />
       <module name="nettyserver" />
@@ -318,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientFrame" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s02.ClientFrame" />
+    <configuration name="ClientFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s05.ClientFrame" />
       <module name="nettyserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s02.*" />
+          <option name="PATTERN" value="s05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s03.Server" />
+    <configuration name="Server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s05.Server" />
       <module name="nettyserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s03.*" />
+          <option name="PATTERN" value="s05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,19 +376,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientFrame" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.ClientFrame (1)" />
       <item itemvalue="Application.Server (1)" />
       <item itemvalue="Application.ClientFrame (2)" />
+      <item itemvalue="Application.Server (2)" />
+      <item itemvalue="Application.ClientFrame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientFrame" />
+        <item itemvalue="Application.Server (2)" />
         <item itemvalue="Application.ClientFrame (2)" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.ClientFrame (1)" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ClientFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28399000" />
+    <option name="totallyTimeSpent" value="31432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,9 +430,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.265043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.265043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -423,15 +440,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8538682" visible="true" weight="0.46971735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8524355" visible="true" weight="0.46971735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8137536" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928367" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928367" weight="0.32839838" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1461318" side_tool="true" visible="true" weight="0.46971735" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48280802" weight="0.3270525" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14756447" side_tool="true" visible="true" weight="0.46971735" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48137537" weight="0.3270525" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49928367" weight="0.37146702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -774,11 +791,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/s04/ClientFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="-637">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="e#1047#1200#0" expanded="true" />
             <element signature="e#1199#1200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMsgDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/TankMsgEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/ClientFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s05/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
